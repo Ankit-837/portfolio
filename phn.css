@@ -1,0 +1,327 @@
+@media screen and (min-width: 800px) and (max-width: 1860px) {
+  .img-part {
+    width: 190px;
+    height: 42vh;
+    margin-bottom: 0;
+  }
+  .content {
+    margin-bottom: 0;
+  }
+  .secondary {
+    line-height: 2rem;
+    padding-top: 0px;
+    font-size: 1.2rem;
+  }
+}
+
+/* Navigation bar */
+@media screen and (max-width: 1360px) {
+  .secondary {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  /* #navigation{
+        justify-content: center;
+
+    } */
+
+  .nav li {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+/* for image and other things in html like about for responsive */
+
+@media screen and (max-width: 1200px) {
+  .secondary {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+  }
+  .email {
+    font-size: 1.8rem;
+  }
+  .mail {
+    font-size: 1.8rem;
+  }
+  .one-sec {
+    font-size: 1.0rem;
+  }
+}
+@media screen and (max-width: 988px) {
+  .img-part {
+    margin-bottom: 0px;
+    width: 206px;
+    height: 40vh;
+  }
+
+  .content {
+    margin-bottom: 0px;
+    width: 60%;
+  }
+  .mail {
+    font-size: 1rem;
+  }
+  .email {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .nav li a {
+    font-size: 1.3rem;
+    padding: 10px;
+  }
+
+  .nav li {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .right {
+    font-size: 1.5rem;
+  }
+  .one-sec {
+    font-size: 1rem;
+    overflow: hidden;
+  }
+  .container {
+    width: 80vw;
+  }
+  .secondary {
+    line-height: 1.2rem;
+    font-size: 1rem;
+    padding-top: 4px;
+    padding-left: 10px;
+  }
+  .development-skill {
+    height: 100%;
+    width: 60%;
+    overflow: hidden;
+  }
+  .programming-skill {
+    height: 100%;
+
+    width: 60%;
+    overflow: hidden;
+  }
+  .img-part {
+    width: 340pxl;
+  }
+  .html {
+    /* display: flex; */
+    flex-direction: column;
+  }
+  .html progress {
+    width: 100%;
+    margin-left: 0;
+  }
+  .html label {
+    font-size: 1.2rem;
+  }
+  .link {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 53px;
+  }
+  .pre {
+    font-size: 1.5rem;
+  }
+  .singh {
+    font-size: 1rem;
+  }
+  .diai {
+    font-size: 1rem;
+  }
+  .Rk {
+    font-size: 1rem;
+  }
+  .gym {
+    font-size: 1rem;
+  }
+  .prime {
+    font-size: 1rem;
+  }
+  .phonepe {
+    font-size: 1rem;
+  }
+ 
+  .form {
+    display: flex;
+    /* justify-content: space-between;
+    padding
+     */
+    padding-left: 23px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 700px) {
+  #home {
+    width: 100%;
+  }
+  .nav li a {
+    font-size: 1rem;
+    padding: 2px;
+  }
+  .nav li {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .right {
+    font-size: 1.2rem;
+  }
+  .my-skills {
+    width: 100%;
+  }
+  .development-skill {
+    width: 60%w;
+    height: 50%;
+  }
+  .development-skill:hover {
+    height: 50vh;
+  }
+  .programming-skills {
+    width: 40%;
+    height: 20vh;
+  }
+
+  progress {
+    border-radius: 7px;
+    width: 30%;
+    height: 12px;
+    margin-left: 1%;
+    color: white;
+    margin: 23px;
+  }
+  label {
+    font-size: 1rem;
+    /* border: 2px solid red;    */
+    width: 150px;
+  }
+  .one-sec h3 {
+    font-size: 1.0rem;
+  }
+  .container{
+    width: 80vw;
+    height: 60vh;
+  }
+  .secondary{
+    height: 100%;
+    width: 100%;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+  .singh{
+    font-size: 1.8rem;
+
+  }
+  .diai{
+    font-size: 1.8rem;
+    
+  }
+  .Rk{
+    font-size: 1.8rem;
+
+  }
+  .gym{
+    font-size: 1.8rem;
+
+  }
+  .prime{
+    font-size: 1.8rem;
+
+
+  }
+  .phonepe{
+    font-size: 1.8rem;
+
+  }
+  .sec3{
+    font-size: 2.8rem;
+
+
+  }
+  .pre{
+    font-size: 1.8rem;
+
+  }
+  .link {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 53px;
+  }
+
+}
+@media screen and (max-width: 550px) {
+  .primary{
+    font-size:2.2rem;
+  }
+  .primary-23{
+    font-size: 1.5rem;
+  }
+  .content{
+    width: 40%;
+  }
+ .secondary{
+  font-size: 1.0rem;
+ }
+ .right {
+  font-size: 0.5rem;
+  animation: none;
+}
+.singh{
+  font-size: 1.2rem;
+
+}
+.diai{
+  font-size: 1.2rem;
+  
+}
+.Rk{
+  font-size: 1.2rem;
+
+}
+.gym{
+  font-size: 1.2rem;
+
+}
+.prime{
+  font-size: 1.2rem;
+
+
+}
+.phonepe{
+  font-size: 1.2rem;
+
+}
+.sec3{
+  font-size: 2.0rem;
+
+
+}
+.pre{
+  font-size: 1.5rem;
+
+}
+
+
+}
+@media screen and (max-width: 420px){
+  .nav li a {
+    font-size: 0.8rem;
+   
+  }
+  .nav li {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  form input{
+    font-size: 1.0rem;
+  }
+  .secondary{
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+   }
+
+
+}
